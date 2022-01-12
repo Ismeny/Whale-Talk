@@ -7,5 +7,9 @@ let resultArray = [];
 
 //for loop to iterate through each letter of the input variable text
 for (let i = 0; i < input.length; i++) {
-    console.log(input[i]);
+    // console.log(`i is ${i}`);
+    //create nested loop to iterate through the vowels array each time the outer loop runs
+    for (let j = 0; j < vowels.length; j++) {
+        // console.log(`j is  ${j}`)
+    }
 }
