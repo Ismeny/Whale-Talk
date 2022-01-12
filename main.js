@@ -5,4 +5,7 @@ const vowels = ['a','e','i','o','u'];
 // variable that will hold vowels from the input string
 let resultArray = [];
 
-
+//for loop to iterate through each letter of the input variable text
+for (let i = 0; i < input.length; i++) {
+    console.log(input[i]);
+}
